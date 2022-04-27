@@ -20,15 +20,12 @@
     display: inline-block;
 }
 
+.list-filters .list-filter:focus,
 .list-filters .list-filter:hover {
     color: #fff;
     background: #444;
 }
 
-.list-filters .list-filter:focus{
-    color: #fff;
-    background: #444;
-}
 
 @media only screen and (max-width: 550px) {
     .list-filters .list-filter {
