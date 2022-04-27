@@ -2,7 +2,6 @@
 layout: post
 title: YAML Front 头信息相关配置
 subtitle: 整理YAML头信息相关内容（持续更新）
-cover-img: /assets/img/path.jpg
 tags: [YAML, 持久积累]
 ---
 
