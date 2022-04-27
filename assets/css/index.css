@@ -25,7 +25,7 @@
     background: #444;
 }
 
-.list-filters.list-filter:focus{
+.list-filters .list-filter:focus{
     color: #fff;
     background: #444;
 }
