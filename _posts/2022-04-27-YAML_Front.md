@@ -18,7 +18,7 @@ title: Blogging Like a Hacker
 
 在这两行的三虚线之间，你可以设置预定义的变量（下面这个例子可以作为参考），甚至创建一个你自己定义的变量。这样在接下来的文件和任意模板中或者在包含这些页面或博客的模板中都可以通过使用 Liquid 标签来访问这些变量。
 
-## 预定义的全局变量[Permalink](https://darkchoco10099.github.io/2022-04-27-YAML_Front/#预定义的全局变量)
+## 预定义的全局变量
 
 你可以在页面或者博客的头信息里设置这些已经预定义好的全局变量。
 
@@ -28,7 +28,7 @@ title: Blogging Like a Hacker
 | `permalink` | 如果你需要让你发布的博客的 URL 地址不同于默认值 `/year/month/day/title.html`，那你就设置这个变量，然后变量值就会作为最终的 URL 地址。 |
 | `published` | 如果你不想在站点生成后展示某篇特定的博文，那么就设置（该博文的）该变量为 false。 |
 
-## 自定义变量[Permalink](https://darkchoco10099.github.io/2022-04-27-YAML_Front/#自定义变量)
+## 自定义变量
 
 在头信息中没有预先定义的任何变量都会在数据转换中通过 Liquid 模板被调用。例如，如果你设置一个 title 变量，然后你就可以在你的模板中使用这个 title 变量来设置页面的标题（title）：
 
@@ -42,7 +42,7 @@ title: Blogging Like a Hacker
     ...
 ```
 
-## 在文章中预定义的变量[Permalink](https://darkchoco10099.github.io/2022-04-27-YAML_Front/#在文章中预定义的变量)
+## 在文章中预定义的变量
 
 在文章中可以使用这些在头信息变量列表中未包含的变量。
 
