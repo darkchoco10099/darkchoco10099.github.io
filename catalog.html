@@ -2,4 +2,11 @@
 layout: page
 title: 'Catalog'
 ---
-<h2 class="post-title">{{ post.title | strip_html }}</h2>
+<div class="posts-list">
+    <article class="post-preview">
+        <a href="{{ post.url | absolute_url }}">
+            <h2 class="post-title">{{ post.title | strip_html }}</h2>
+        </a>
+    </article>
+</div>
+
