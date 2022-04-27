@@ -6,6 +6,14 @@ layout: page
 
 {% assign posts = paginator.posts | default: site.posts %}
 
+
+<div class="list-filters">
+  <a href="https://darkchoco10099.github.io/" class="list-filter">All posts</a>
+  <a href="https://darkchoco10099.github.io//popular" class="list-filter">Most Popular</a>
+  <a href="https://darkchoco10099.github.io/tutorials" class="list-filter filter-selected">Tutorials</a>
+  <a href="https://darkchoco10099.github.io/tags" class="list-filter">Index</a>
+</div>
+
 <div class="posts-list">
   {% for post in posts %}
   <article class="post-preview">
