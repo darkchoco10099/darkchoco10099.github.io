@@ -1,3 +1,9 @@
-.posts-list .post-preview{
-    padding: 0.1em;
+.post-preview{
+    padding-top: 0.5rem;
+    padding-top: 0.5rem;
+}
+
+.post-preview h2,
+.post-preview > a{
+    display: inline;
 }
