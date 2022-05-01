@@ -27,7 +27,7 @@ conn.close()
 
 - Django开发操作数据库
 
-![image-20220501151558195](2022-05-01-Django%E4%B8%8EMysql.assets/image-20220501151558195.png)
+![image-20220501151558195](2022-05-01-Django与Mysql.assets/image-20220501151558195.png)
 
 - `	pymsql`有一个源码的错误，需要在`__init__`中添加代码，可以安装` mysqlclient`避免
 
@@ -39,8 +39,51 @@ conn.close()
     ~~~
 
 - ORM可以帮我们做两件事：
-
   - 创建、修改、删除数据库中的表（不用写SQL语句）。【无法创建数据库】
   - 操作表中得数据。（不用写SQL语句）
+- settings中增加外界数据库
+
+```pyhton
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'database_name',
+        'USER': 'root',
+        'PASSWORD': 'root',
+        'HOST': '127.0.0.1',
+        'POST': 3306,
+    }
+}
+```
+
+- django操作表
+
+  - 在models.py中添加class
+
+  ```python
+  from django.db import models
+  
+  class UserInfo(models.Model):
+      name = models.CharField(max_length=32)
+      paw = models.CharField(max_length=32)
+      age = models.IntergerField()
+      
+  """
+  orm会自动转化执行语句：
+  create table appname(相应app名称)_UserInfo(
+  	id bigint quto_increment primary key,
+  	name varchar(32),
+  	password varchar(32)
+  	age int
+  );
+  """
+  ```
+
+  - ```python
+    makemigrations
+    migrate
+    ```
+
+  - app需要提前注册到settings里面
 
   
