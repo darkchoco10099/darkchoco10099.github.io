@@ -2,7 +2,7 @@
 layout: post
 title: 数据库相关知识
 subtitle: Database & MySQL
-tags: [数据库, Database, MySQL, 持久积累]
+tags: [数据库, Database, Mysql, 持久积累]
 ---
 
 
