@@ -63,10 +63,11 @@ DATABASES = {
   ```python
   from django.db import models
   
+  # 新建表
   class UserInfo(models.Model):
       name = models.CharField(max_length=32)
       paw = models.CharField(max_length=32)
-      age = models.IntergerField()
+      age = models.IntergerField(default=20)
       
   """
   orm会自动转化执行语句：
@@ -77,13 +78,32 @@ DATABASES = {
   	age int
   );
   """
-  ```
 
+  # 新建数据
+  UserInfo.objects.create(name='zhangsan',paw='123',age=23)
+  
+  # 删除数据
+UserInfo.objects.filter(id=3).delete()
+  UserInfo.objects.all().delete()
+
+  # 获取数据
+  # data_list = [x,x,x,...]
+  data_list = UserInfo.objects.all()
+  # .first()得到一个对象，取的是第一条数据
+  row_obj = UserInfo.objects.filter(id=2).first()
+  for obj in data_list：
+  	print(obj.id, obj.name, obj.paw, obj.age)
+      
+  # 更新数据
+  UserInfo.objects.all().update(age=23)
+  UserInfo.objects.filter(id=45).update(age=56)
+  ```
+  
   - ```python
     makemigrations
     migrate
     ```
-
+  
   - app需要提前注册到settings里面
-
+  
   
