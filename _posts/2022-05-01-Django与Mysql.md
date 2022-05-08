@@ -27,7 +27,7 @@ conn.close()
 
 - Django开发操作数据库
 
-![image-20220501151558195](2022-05-01-Django与Mysql.assets/image-20220501151558195.png)
+![](https://cdn.jsdelivr.net/gh/darkchoco10099/img/image-20220501151558195.png)
 
 - `	pymsql`有一个源码的错误，需要在`__init__`中添加代码，可以安装` mysqlclient`避免
 
