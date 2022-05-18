@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 解决shutil.copyfile：PermissionError: [Errno 13] Permission denied
+title: 解决shutil.copyfile：PermissionError
 tags: [errors, python, shutil]
 ---
-
+解决shutil.copyfile：PermissionError: [Errno 13] Permission denied
 ```python
 shutil.copy(source1, target1);
 source1：文件地址；
