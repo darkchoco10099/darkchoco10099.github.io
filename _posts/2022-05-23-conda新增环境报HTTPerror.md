@@ -1,6 +1,6 @@
 ---
 layout: post
-title: conda新增环境报HTTPerror
+title: conda新增环境报HTTP error
 tags: [python, anaconda, Errors]
 ---
 
@@ -10,6 +10,8 @@ tags: [python, anaconda, Errors]
 # 错误信息
 CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.continuum.io/pk gs/r/win-64/repodata.json.bz2>
 ~~~
+
+
 
 - Solution 1
 
@@ -27,4 +29,4 @@ CondaHTTPError: HTTP 000 CONNECTION FAILED for url <https://repo.continuum.io/pk
 
 **关闭代理！！！！！！！！！！**
 
-参考链接：[stack overflow]([python - CondaHTTPError: HTTP 000 CONNECTION FAILED for url  - Stack Overflow](https://stackoverflow.com/questions/50305725/condahttperror-http-000-connection-failed-for-url-https-repo-continuum-io-pk))
+参考链接：[python - CondaHTTPError: HTTP 000 CONNECTION FAILED for url - Stack Overflow](https://stackoverflow.com/questions/50305725/condahttperror-http-000-connection-failed-for-url-https-repo-continuum-io-pk)
