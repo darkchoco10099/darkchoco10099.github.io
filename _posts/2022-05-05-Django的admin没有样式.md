@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Django的admin页面没有样式
-tags: [python, Error, Django]
+tags: [python, Errors, Django]
 ---
 
 ```python
