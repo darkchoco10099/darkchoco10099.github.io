@@ -1,10 +1,13 @@
 ---
 layout: post
-title: ModuleNotFoundError: No module named 'mysql'
+title: No module named 'mysql'
 tags: [python, Django, Errors]
 ---
 
+ModuleNotFoundError: No module named 'mysql'
+
 ### 若 导入MySQL驱动:
+
  import mysql.connector
 
 ### 需要安装MySQL驱动
