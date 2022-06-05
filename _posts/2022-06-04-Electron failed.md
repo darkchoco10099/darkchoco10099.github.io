@@ -1,7 +1,7 @@
 ---
 ​---
 layout: post
-title: Electron failed to install correctly
+title: Electron failed
 tags: [Frontend, npm, Errors]
 ​---
 ---
