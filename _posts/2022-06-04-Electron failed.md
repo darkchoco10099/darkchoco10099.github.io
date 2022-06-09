@@ -1,9 +1,7 @@
 ---
-​---
 layout: post
 title: Electron failed
 tags: [Frontend, npm, Errors]
-​---
 ---
 
 # Electron failed to install correctly, please delete node_modules/electron and try installing again
