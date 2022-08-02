@@ -4,6 +4,8 @@ _site
 .vagrant
 .history
 
+.github
+
 # general
 .DS_Store
 Thumbs.db
