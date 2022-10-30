@@ -13,8 +13,7 @@ error css-loader@1.0.1: The engine "node" is incompatible with this module. Expe
 
 ```
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190805095033428.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3l1eGllbGVh,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20190805095452915.png)
+xxxxxxxxxx git config --global url."https://".insteadOf git://npm installshell
 
 > **注意：错误报的是Node.js版本不一致，而不是npm版本不一致，所以网上有些建议更新npm的实际上是没用的。**
 
