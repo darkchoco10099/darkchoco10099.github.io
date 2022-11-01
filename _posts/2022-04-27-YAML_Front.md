@@ -3,6 +3,7 @@ layout: post
 title: YAML Front 头信息相关配置
 subtitle: 整理YAML头信息相关内容（持续更新）
 tags: [YAML, 持久积累]
+is_top: 1
 ---
 
 通过这个文章收集YAML头信息的相关用法，并结合此Jekyll进行更好的显示，长期积累项目。
