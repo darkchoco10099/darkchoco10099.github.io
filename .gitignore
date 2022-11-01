@@ -5,6 +5,7 @@ _site
 .history
 
 .github
+.idea
 
 # general
 .DS_Store
